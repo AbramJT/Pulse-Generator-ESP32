@@ -9,7 +9,7 @@ void setup()
 {  
 // This statement will declare pin 15 as digital output 
 pinMode(LEDPIN1, OUTPUT);
-// This statement will declare pinse 21 as digital output 
+// This statement will declare pin 21 as digital output 
 pinMode(LEDPIN2, OUTPUT);
 // This statement will declare pin 22 as digital input 
 pinMode(PushButton1, INPUT);
