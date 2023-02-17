@@ -22,9 +22,9 @@ void loop()
 
 {
 
-if(digitalRead(PushButton1)==LOW)
+if(digitalRead(PushButton1)==LOW) //If button 1 is not pressed this will happen
 {  
-   if(digitalRead(PushButton2)==LOW)
+   if(digitalRead(PushButton2)==LOW) // //If button 2 is not pressed this will happen
    {
     digitalWrite(LEDPIN1, HIGH);
     delayMicroseconds(100);
@@ -94,7 +94,7 @@ if(digitalRead(PushButton1)==LOW)
     delayMicroseconds(50);
   }
 
-else
+else //If button 2 is pressed this will happen
 { 
     digitalWrite(LEDPIN1, HIGH);
     delayMicroseconds(100);
@@ -165,7 +165,7 @@ else
   }
 }
 
-else
+else //If button 1 is pressed this will happen
 {
     digitalWrite(LEDPIN1, LOW);
     digitalWrite(LEDPIN2, LOW);
